@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 51, 92);
+    color: white;
+    gap: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+    border: 1px solid white;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+    border: 1px solid white;
+    padding: 4px;
+    padding-top: 0px;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto
+}
+
+.logo{
+    font-size: 60px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+}
